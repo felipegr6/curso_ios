@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		2FA40EE1221E46AF00D5ED2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA40EE0221E46AF00D5ED2B /* AppDelegate.swift */; };
-		2FA40EE3221E46AF00D5ED2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA40EE2221E46AF00D5ED2B /* ViewController.swift */; };
+		2FA40EE3221E46AF00D5ED2B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA40EE2221E46AF00D5ED2B /* HistoryViewController.swift */; };
 		2FA40EE6221E46AF00D5ED2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA40EE4221E46AF00D5ED2B /* Main.storyboard */; };
 		2FA40EE8221E46B400D5ED2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA40EE7221E46B400D5ED2B /* Assets.xcassets */; };
 		2FA40EEB221E46B400D5ED2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA40EE9221E46B400D5ED2B /* LaunchScreen.storyboard */; };
+		2FA40EF3221E4B2600D5ED2B /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA40EF2221E4B2600D5ED2B /* CheckoutViewController.swift */; };
+		BA4322A4221F1EA400B3606F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322A3221F1EA400B3606F /* User.swift */; };
+		BA4322A6221F1FC400B3606F /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322A5221F1FC400B3606F /* History.swift */; };
+		BA4322A8221F221F00B3606F /* PaymentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322A7221F221F00B3606F /* PaymentStatus.swift */; };
+		BA4322AA221F24B400B3606F /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322A9221F24B400B3606F /* UserController.swift */; };
+		BA4322AC221F277600B3606F /* UserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322AB221F277600B3606F /* UserDelegate.swift */; };
+		BA4322AE221F35F900B3606F /* HistoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322AD221F35F900B3606F /* HistoryDelegate.swift */; };
+		BA4322B0221F3CB400B3606F /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322AF221F3CB400B3606F /* HistoryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FA40EDD221E46AF00D5ED2B /* Aula3Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula3Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA40EE0221E46AF00D5ED2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FA40EE2221E46AF00D5ED2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FA40EE2221E46AF00D5ED2B /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		2FA40EE5221E46AF00D5ED2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FA40EE7221E46B400D5ED2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA40EEA221E46B400D5ED2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA40EEC221E46B400D5ED2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA40EF2221E4B2600D5ED2B /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		BA4322A3221F1EA400B3606F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BA4322A5221F1FC400B3606F /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		BA4322A7221F221F00B3606F /* PaymentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatus.swift; sourceTree = "<group>"; };
+		BA4322A9221F24B400B3606F /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		BA4322AB221F277600B3606F /* UserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDelegate.swift; sourceTree = "<group>"; };
+		BA4322AD221F35F900B3606F /* HistoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDelegate.swift; sourceTree = "<group>"; };
+		BA4322AF221F3CB400B3606F /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		2FA40EDF221E46AF00D5ED2B /* Aula3Sample */ = {
 			isa = PBXGroup;
 			children = (
+				BA4322A2221F1D1200B3606F /* controller */,
+				BA4322A1221F1D0B00B3606F /* view */,
+				BA4322A0221F1CFB00B3606F /* model */,
 				2FA40EE0221E46AF00D5ED2B /* AppDelegate.swift */,
-				2FA40EE2221E46AF00D5ED2B /* ViewController.swift */,
-				2FA40EE4221E46AF00D5ED2B /* Main.storyboard */,
 				2FA40EE7221E46B400D5ED2B /* Assets.xcassets */,
-				2FA40EE9221E46B400D5ED2B /* LaunchScreen.storyboard */,
 				2FA40EEC221E46B400D5ED2B /* Info.plist */,
 			);
 			path = Aula3Sample;
+			sourceTree = "<group>";
+		};
+		BA4322A0221F1CFB00B3606F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4322A3221F1EA400B3606F /* User.swift */,
+				BA4322A5221F1FC400B3606F /* History.swift */,
+				BA4322A7221F221F00B3606F /* PaymentStatus.swift */,
+				BA4322AB221F277600B3606F /* UserDelegate.swift */,
+				BA4322AD221F35F900B3606F /* HistoryDelegate.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BA4322A1221F1D0B00B3606F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2FA40EE4221E46AF00D5ED2B /* Main.storyboard */,
+				2FA40EE9221E46B400D5ED2B /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BA4322A2221F1D1200B3606F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FA40EE2221E46AF00D5ED2B /* HistoryViewController.swift */,
+				2FA40EF2221E4B2600D5ED2B /* CheckoutViewController.swift */,
+				BA4322A9221F24B400B3606F /* UserController.swift */,
+				BA4322AF221F3CB400B3606F /* HistoryDetailViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA40EE3221E46AF00D5ED2B /* ViewController.swift in Sources */,
+				BA4322B0221F3CB400B3606F /* HistoryDetailViewController.swift in Sources */,
+				BA4322A8221F221F00B3606F /* PaymentStatus.swift in Sources */,
+				BA4322A4221F1EA400B3606F /* User.swift in Sources */,
+				2FA40EE3221E46AF00D5ED2B /* HistoryViewController.swift in Sources */,
+				2FA40EF3221E4B2600D5ED2B /* CheckoutViewController.swift in Sources */,
+				BA4322AA221F24B400B3606F /* UserController.swift in Sources */,
+				BA4322AE221F35F900B3606F /* HistoryDelegate.swift in Sources */,
 				2FA40EE1221E46AF00D5ED2B /* AppDelegate.swift in Sources */,
+				BA4322A6221F1FC400B3606F /* History.swift in Sources */,
+				BA4322AC221F277600B3606F /* UserDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4NRYRR94WS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Aula3Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4NRYRR94WS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Aula3Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
