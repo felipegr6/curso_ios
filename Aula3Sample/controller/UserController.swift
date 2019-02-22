@@ -33,7 +33,5 @@ class UserController:UIViewController {
         delegate?.updateUser?(user: u)
         
         navigationController?.popViewController(animated: true)
-        
-        dismiss(animated: true, completion: nil)
     }
 }

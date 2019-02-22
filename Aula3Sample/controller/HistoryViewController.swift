@@ -26,6 +26,7 @@ class HistoryViewController: UIViewController, UserDelegate, HistoryDelegate {
     }
     
     func addItem(item: History) {
+        item.user = user
         myOrders.append(item)
     }
     
@@ -74,7 +75,7 @@ extension HistoryViewController: UITableViewDelegate, UITableViewDataSource {
         if let labelOrderThings = cell.viewWithTag(22) as? UILabel,
             let labelOrderStatus = cell.viewWithTag(44) as? UILabel {
             let i = myOrders[indexPath.row]
-            labelOrderThings.text = "\(i.name) \(i.createdAt)" // Aqui vai nome do pedido, data..
+            labelOrderThings.text = "\(i.item.name) \(i.createdAt)" // Aqui vai nome do pedido, data..
             labelOrderStatus.text = i.status.rawValue // Aqui vai o status do pedido
         }
 

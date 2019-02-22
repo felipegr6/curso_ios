@@ -14,16 +14,20 @@ class CheckoutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     @IBAction func buy(_ sender: UIButton) {
-        // aqui vai a função de compra
-        let item:History = History(name: "xyz", value: 3.0, status: PaymentStatus.done, createdAt: Date())
-        delegate?.addItem?(item: item)
+        let item: Product = Product("xyx", 3.0)
+        let history:History = History(item: item, status: PaymentStatus.done, createdAt: Date())
+        delegate?.addItem?(item: history)
+        closeModal()
     }
     
     @IBAction func cancel(_ sender: UIButton) {
+        closeModal()
+    }
+    
+    private func closeModal() {
         dismiss(animated: true, completion: nil)
     }
 }

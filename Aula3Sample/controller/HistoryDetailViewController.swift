@@ -20,13 +20,18 @@ class HistoryDetailViewController: UIViewController {
         guard let i = item else {return}
         
         historyLabel.text = i.formatInfo()
-        
     }
 }
 
-
 extension History {
     func formatInfo() -> String {
-        return "\(self.name)\nR$\(self.value)\n\(self.status.rawValue.uppercased())"
+        var nameUser:String
+        if user == nil {
+            nameUser = "Anônimo"
+        } else {
+            nameUser = (self.user?.name)!
+        }
+        
+        return "\(self.item.name)\nR$\(self.item.value)\nStatus da compra: \(self.status.rawValue.uppercased())\nComprado por: \(nameUser)"
     }
 }
