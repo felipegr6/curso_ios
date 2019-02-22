@@ -21,6 +21,10 @@
 		BA4322AE221F35F900B3606F /* HistoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322AD221F35F900B3606F /* HistoryDelegate.swift */; };
 		BA4322B0221F3CB400B3606F /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322AF221F3CB400B3606F /* HistoryDetailViewController.swift */; };
 		BA4322B222206F2F00B3606F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322B122206F2F00B3606F /* Product.swift */; };
+		BA4322B4222080A500B3606F /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322B3222080A500B3606F /* ProductListViewController.swift */; };
+		BA4322B62220815000B3606F /* CreateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322B52220815000B3606F /* CreateProductViewController.swift */; };
+		BA4322B82220818A00B3606F /* NewProductDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322B72220818A00B3606F /* NewProductDelegate.swift */; };
+		BA4322BA222087A000B3606F /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4322B9222087A000B3606F /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		BA4322AD221F35F900B3606F /* HistoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDelegate.swift; sourceTree = "<group>"; };
 		BA4322AF221F3CB400B3606F /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
 		BA4322B122206F2F00B3606F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BA4322B3222080A500B3606F /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		BA4322B52220815000B3606F /* CreateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductViewController.swift; sourceTree = "<group>"; };
+		BA4322B72220818A00B3606F /* NewProductDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductDelegate.swift; sourceTree = "<group>"; };
+		BA4322B9222087A000B3606F /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,7 @@
 				BA4322AB221F277600B3606F /* UserDelegate.swift */,
 				BA4322AD221F35F900B3606F /* HistoryDelegate.swift */,
 				BA4322B122206F2F00B3606F /* Product.swift */,
+				BA4322B72220818A00B3606F /* NewProductDelegate.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -111,6 +120,9 @@
 				2FA40EF2221E4B2600D5ED2B /* CheckoutViewController.swift */,
 				BA4322A9221F24B400B3606F /* UserController.swift */,
 				BA4322AF221F3CB400B3606F /* HistoryDetailViewController.swift */,
+				BA4322B3222080A500B3606F /* ProductListViewController.swift */,
+				BA4322B52220815000B3606F /* CreateProductViewController.swift */,
+				BA4322B9222087A000B3606F /* MainTabViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -186,16 +198,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4322B62220815000B3606F /* CreateProductViewController.swift in Sources */,
 				BA4322B0221F3CB400B3606F /* HistoryDetailViewController.swift in Sources */,
 				BA4322A8221F221F00B3606F /* PaymentStatus.swift in Sources */,
 				BA4322A4221F1EA400B3606F /* User.swift in Sources */,
 				2FA40EE3221E46AF00D5ED2B /* HistoryViewController.swift in Sources */,
+				BA4322BA222087A000B3606F /* MainTabViewController.swift in Sources */,
 				2FA40EF3221E4B2600D5ED2B /* CheckoutViewController.swift in Sources */,
 				BA4322AA221F24B400B3606F /* UserController.swift in Sources */,
 				BA4322B222206F2F00B3606F /* Product.swift in Sources */,
 				BA4322AE221F35F900B3606F /* HistoryDelegate.swift in Sources */,
+				BA4322B82220818A00B3606F /* NewProductDelegate.swift in Sources */,
 				2FA40EE1221E46AF00D5ED2B /* AppDelegate.swift in Sources */,
 				BA4322A6221F1FC400B3606F /* History.swift in Sources */,
+				BA4322B4222080A500B3606F /* ProductListViewController.swift in Sources */,
 				BA4322AC221F277600B3606F /* UserDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

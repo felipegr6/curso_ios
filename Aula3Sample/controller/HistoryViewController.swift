@@ -8,7 +8,10 @@
 
 import UIKit
 
-class HistoryViewController: UIViewController, UserDelegate, HistoryDelegate {
+class HistoryViewController: UIViewController, UserDelegate, HistoryDelegate, NewProductDelegate {
+    
+    var productList = [Product]()
+    var user:User?
     
     @IBOutlet weak var tableHistory: UITableView!
     var myOrders: [History] = [] {
@@ -19,7 +22,10 @@ class HistoryViewController: UIViewController, UserDelegate, HistoryDelegate {
             tableHistory.reloadData()
         }
     }
-    var user:User?
+    
+    func addNewProduct(product: Product) {
+        productList.append(product)
+    }
 
     func updateUser(user:User?) {
         self.user = user
@@ -51,6 +57,9 @@ class HistoryViewController: UIViewController, UserDelegate, HistoryDelegate {
         case "showEditUser":
             let vc = segue.destination as? UserController
             vc?.user = user
+            vc?.delegate = self
+        case "":
+            let vc = segue.destination as? CreateProductViewController
             vc?.delegate = self
 
         default:
